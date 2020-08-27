@@ -1,0 +1,70 @@
+
+*{
+  box-sizing: border-box;
+   filter: grayscale(500%);
+}
+
+.image-body{
+  height: 110vh;
+  width: 100vw;
+  background-image: url('https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg');
+  z-index: -1;
+}
+.navbar-button:hover {    
+   cursor: pointer;
+   
+    }
+
+.navbar{
+  height: 5vh;
+  width: 100vw;
+  opacity: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  position: fixed;
+  word-wrap: none;
+  align-items: center;
+  word-wrap: nowrap;
+  background-image: transparent;
+}
+
+@media(max-width 961px){
+  body{
+    background: bad;
+  }
+}
+
+.app-name{
+  display: flex;
+  height: 50px;
+  width: 75vw;
+  padding-left: 100px;
+  color: gray;
+  
+  
+}
+
+
+.navbar-button{
+  background: transparent;
+  border: none;
+  color: gray;
+
+}
+
+.navbar-button-container{
+  border: 0;
+   display: flex;
+   word-wrap: nowrap;
+   opacity: 80%;
+   color: transparent;
+}
+
+@media (min-width: 496px){
+  body{
+    background: santa;
+  }
+}
+
